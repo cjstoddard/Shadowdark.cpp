@@ -70,9 +70,6 @@ int roll_2d6()
 
     int totalRolled = dieArray[0] + dieArray[1];
 
-    // int rolled2d6Dice = roll_2d6();
-    // cout << "Total Rolled: " << rolled2d6Dice << endl;
-
     return totalRolled;
 }
 
@@ -114,7 +111,6 @@ string ask_YN(string answer)
         answer = "Y";
     } else {
         exit(0);
-        // answer = "N";
     }
     return (answer);
 }
