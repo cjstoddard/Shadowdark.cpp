@@ -390,7 +390,9 @@ int main()
         HITPOINTS = HITPOINTS + 3;
     } else if (abilityModifier[2] == "+4") {
         HITPOINTS = HITPOINTS + 4;
-    } else {
+    }
+
+    if (HITPOINTS < 1) {
         HITPOINTS = 1;
     }
 
