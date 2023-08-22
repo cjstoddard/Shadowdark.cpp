@@ -1,6 +1,6 @@
 # Shadowdark.cpp
 
-Apparently there are a lot of people out there who do not want to install Python on thier computer for a program they they will use once a month. There are ways to compile Python code into an executable, I did not paticularly like any of them. So I did what I had to do, I sat down and converted the code to C++. This is not a terribly complicated program and it should compile under any recent C++ compiler. As with the Python code, I tried to make this as easy as possible for someone else, wishing to add their own Ancestries and Classes to do so without needing a lot of experience.
+Apparently there are a lot of people out there who do not want to install Python on thier computer for a program they will use once a month. There are ways to compile Python code into an executable, I did not paticularly like any of them. So I did what I had to do, I sat down and converted the code to C++. This is not a terribly complicated program and it should compile under any recent C++ compiler. As with the Python code, I tried to make this as easy as possible for someone else, wishing to add their own Ancestries and Classes to do so without needing a lot of experience.
 
 shadowdark.cpp - C++ source code
 
