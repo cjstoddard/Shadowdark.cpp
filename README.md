@@ -1,5 +1,12 @@
 # Shadowdark.cpp
 
+Apparently there are a lot of people out there who do not want to install Python on thier computer for a program they they will use once a month. There are ways to compile Python code into an executable, I did not paticularly like any of them. So I did what I had to do, I sat down and converted the code to C++. This is not a terribly complicated program and it should compile under any recent C++ compiler. As with the Python code, I tried to make this as easy as possible for someone else, wishing to add their own Ancestries and Classes to do so without needing a lot of experience.
+
+shadowdark.cpp - C++ source code
+shadowdark.lnx - Linux executable
+shadowdark.exe - Windows executable
+Example.txt - Example character generated using this program
+
 This program generate characters for the Shadowdark RPG, the quickstart rules are availble at;
 
 https://www.drivethrurpg.com/product/413713/Shadowdark-RPG-Quickstart-Set
