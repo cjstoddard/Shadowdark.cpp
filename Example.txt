@@ -1,0 +1,34 @@
+
+Shadowdark Character Sheet 1.2
+------------------------------
+Character Name: Example
+Ancestry: Elf
+Background: Jeweler
+Alignment: Lawful
+Deity: _______________________
+Character Class: Fighter
+XP:    _____
+Level: _____
+------------------------------
+Str: 14 / +2
+Dex: 8 / -1
+Con: 9 / -1
+Int: 11 / 0
+Wis: 13 / +1
+Cha: 17 / +3
+
+Hit Points: 3
+
+------------------------------
+Ancestry Feature: Farsight. Choose; +1 bonus to ranged weapon attacks or +1 bonus to spellcasting checks.
+Languages: Common, Elvish, and Sylvan
+Class Features:
+     Weapons: All weapons
+     Armor: All armor and shields
+     Hauler. You gain additional gear slots equal to you Constitution modifier, if positive.
+     Weapon Mastery. With one type of weapon, you gain +1 to attack and damage with that weapon type. Also, add half your level to attack and damage rolls (round down).
+     Grit. Choose Strength or Dexterity. You have advantage on checks based on that attribute.
+Class Talent: Choose a talent or +2 points to distribute to attributes
+------------------------------
+EQUIPMENT:
+40 Gold Pieces
