@@ -104,6 +104,8 @@ string assign_Modifier(int temp)
     return temp_mod;
 }
 
+// ###############################
+// Deals with yes and no questions
 string ask_YN(string answer)
 {
     if (answer == "y") {
@@ -158,6 +160,8 @@ int main()
     string sStarting_Gold;
     string Character_name;
     
+    // ###############################
+    // Displays legal statement
     cout << "-------------------------------------------------------" << endl;
     cout << "Legal Statement:" << endl;
     cout << "This Shadowdark Character Generator is an independent" << endl;
