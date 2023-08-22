@@ -6,7 +6,7 @@ shadowdark.cpp - C++ source code
 
 shadowdark.lnx - Linux executable
 
-shadowdark.exe - Windows executable
+shadowdark.zip - Contains the Windows executable and needed dlls
 
 Example.txt - Example character generated using this program
 
