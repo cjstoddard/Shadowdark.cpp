@@ -180,35 +180,20 @@ int main()
     }
 
     if (rollChoice == 1) {
-        rolledDice = roll_3d6();
-        abilityScores[0] = rolledDice;
-        rolledDice = roll_3d6();
-        abilityScores[1] = rolledDice;
-        rolledDice = roll_3d6();
-        abilityScores[2] = rolledDice;
-        rolledDice = roll_3d6();
-        abilityScores[3] = rolledDice;
-        rolledDice = roll_3d6();
-        abilityScores[4] = rolledDice;
-        rolledDice = roll_3d6();
-        abilityScores[5] = rolledDice;
+        abilityScores[0] = roll_3d6();
+        abilityScores[1] = roll_3d6();
+        abilityScores[2] = roll_3d6();
+        abilityScores[3] = roll_3d6();
+        abilityScores[4] = roll_3d6();
+        abilityScores[5] = roll_3d6();
         } else if (rollChoice == 2) {
-            rolledDice = roll_4d6();
-            abilityScores[0] = rolledDice;
-            rolledDice = roll_4d6();
-            abilityScores[1] = rolledDice;
-            rolledDice = roll_4d6();
-            abilityScores[2] = rolledDice;
-            rolledDice = roll_4d6();
-            abilityScores[3] = rolledDice;
-            rolledDice = roll_4d6();
-            abilityScores[4] = rolledDice;
-            rolledDice = roll_4d6();
-            abilityScores[5] = rolledDice;
-        } else {
-            cout << " " << endl;
-            exit(0);
-    }
+            abilityScores[0] = roll_4d6();
+            abilityScores[1] = roll_4d6();
+            abilityScores[2] = roll_4d6();
+            abilityScores[3] = roll_4d6();
+            abilityScores[4] = roll_4d6();
+            abilityScores[5] = roll_4d6();
+        }
 
     abilityModifier[0] = assign_Modifier(abilityScores[0]);
     abilityModifier[1] = assign_Modifier(abilityScores[1]);
@@ -375,7 +360,7 @@ int main()
     // ###############################
     // # Modify hit Points by Constitution
     if (abilityModifier[2] == "-1") {
-         HITPOINTS = HITPOINTS - 1;
+        HITPOINTS = HITPOINTS - 1;
     } else if (abilityModifier[2] == "-2") {
         HITPOINTS = HITPOINTS - 2;
     } else if (abilityModifier[2] == "-3") {
