@@ -125,7 +125,6 @@ int main()
 
     int abilityScores[6];
     int rollChoice;
-    int rolledDice;
     int HITPOINTS;
     int talent_roll_sum;
     int iBackground;
@@ -146,7 +145,6 @@ int main()
     string ClassFeature1;
     string ClassFeature2;
     string ClassFeature3;
-    string ClassFeature4;
     string ClassTalent;
     string Choose_Alignment;
     string Alignment;
