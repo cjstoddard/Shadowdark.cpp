@@ -30,3 +30,6 @@ https://creativecommons.org/licenses/by-nc/4.0/
 
 Disclaimer: This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a paticular purpose and nonifringment. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
+If you are not a programer and the thought of learning C++ and recompiling the code just to make couple of minor changes does not appeal to you, I have a Python version of this program, linked below. The program does require you to install Python, however Python is a more interactive programing language and is much easier to learn. I even include links to help you get started with it.
+
+https://github.com/cjstoddard/Shadowdark.py
