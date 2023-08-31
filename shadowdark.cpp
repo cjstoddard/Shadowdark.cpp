@@ -1,16 +1,16 @@
-// ###############################
-// # Shadowsdark.cpp 1.2         #
-// # By Chris Stoddard, Aug 2023 #
-// # Based on the Shadowdark RPG #
-// # by Arcane Library           #
-// # This code is licensed under #
-// # the Creative Commons        #
-// # Attribution-NonCommercial   #
-// # 4.0 License.                #
-// ###############################
+// ///////////////////////////////
+// / Shadowsdark.cpp 1.2         /
+// / By Chris Stoddard, Aug 2023 /
+// / Based on the Shadowdark RPG /
+// / by Arcane Library           /
+// / This code is licensed under /
+// / the Creative Commons        /
+// / Attribution-NonCommercial   /
+// / 4.0 License.                /
+// ///////////////////////////////
 
-// ###############################
-// # Import needed libraries
+// ///////////////////////////////
+// Import needed libraries
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
@@ -19,9 +19,9 @@
 
 using namespace std;
 
-// ###############################
-// # Define functions
-// # 4d6 take the best 3 for rolling ability scores
+// ///////////////////////////////
+// Define functions
+// 4d6 take the best 3 for rolling ability scores
 int roll_4d6()
 {
     int dieArray[4];
@@ -40,8 +40,8 @@ int roll_4d6()
     return totalRolled;
 }
 
-// ###############################
-// # 3d6 for rolling ability scores
+// ///////////////////////////////
+// 3d6 for rolling ability scores
 int roll_3d6()
 {
     int dieArray[3];
@@ -57,8 +57,8 @@ int roll_3d6()
     return totalRolled;
 }
 
-// ###############################
-// # 2d6 for various purposes
+// ///////////////////////////////
+// 2d6 for various purposes
 int roll_2d6()
 {
     int dieArray[2];
@@ -73,7 +73,7 @@ int roll_2d6()
     return totalRolled;
 }
 
-// ###############################
+// ///////////////////////////////
 // Determines attribute moddiers
 string assign_Modifier(int temp)
 {
@@ -101,7 +101,7 @@ string assign_Modifier(int temp)
     return temp_mod;
 }
 
-// ###############################
+// ///////////////////////////////
 // Deals with yes and no questions
 string ask_YN(string answer)
 {
@@ -115,11 +115,11 @@ string ask_YN(string answer)
     return (answer);
 }
 
-// ###############################
+// ///////////////////////////////
 // Main function
 int main()
 {
-    // ###############################
+    // ///////////////////////////////
     // Declare variables
     srand(time(0));
 
@@ -154,7 +154,7 @@ int main()
     string sStarting_Gold;
     string Character_name;
     
-    // ###############################
+    // ///////////////////////////////
     // Displays legal statement
     cout << "-------------------------------------------------------" << endl;
     cout << "Legal Statement:" << endl;
@@ -164,7 +164,7 @@ int main()
     cout << "LLC. Shadowdark RPG © 2023 The Arcane Library, LLC." << endl;
     cout << "-------------------------------------------------------" << endl;
 
-    // ###############################
+    // ///////////////////////////////
     // Roll attributes
     cout << endl;
     cout << "Choose which method of attribute generation you want to use:" << endl;
@@ -211,8 +211,8 @@ int main()
     cin >> YN;
     ask_YN(YN);
 
-    // ###############################
-    // # Ancestry Section
+    // ///////////////////////////////
+    // Ancestry Section
     cout << " " << endl;
     cout << "Choose an Ancestry for your character:" << endl;
     cout << " 1 Dwarf" << endl;
@@ -250,8 +250,8 @@ int main()
         AncestryFeature = "Ambitious. Roll one additional on the talent table at 1st level.";
     }
 
-    // ###############################
-    // # Class Section
+    // ///////////////////////////////
+    // Class Section
     cout << endl;
     cout << "Choose a Class for your character:" << endl;
     cout << " 1 Fighter" << endl;
@@ -355,8 +355,8 @@ int main()
         ClassTalent = " ";
     }
     
-    // ###############################
-    // # Modify hit Points by Constitution
+    // ///////////////////////////////
+    // Modify hit Points by Constitution
     if (abilityModifier[2] == "-1") {
         HITPOINTS = HITPOINTS - 1;
     } else if (abilityModifier[2] == "-2") {
@@ -379,14 +379,14 @@ int main()
         HITPOINTS = 1;
     }
 
-    // ###############################
-    // # Randomly chooses background
+    // ///////////////////////////////
+    // Randomly chooses background
     const char* Random_Backgrounds[] = {"Urchin","Wanted", "Cult Initiate", "Thieves Guild", "Banished", "Orphaned", "Wizards Apprentice", "Jeweler", "Herbalist", "Barbarian", "Mercenary", "Sailor", "Alcolyte", "Soldier", "Ranger", "Scout", "Minstrel", "Scholar", "Nobel", "Chirurgeon"};
     iBackground = rand() % (20 - 1 + 1) + 1;
     sBackground = Random_Backgrounds[iBackground];
 
-    // ###############################
-    // # Choose Alignment
+    // ///////////////////////////////
+    // Choose Alignment
     cout << endl;
     cout << "Choose an Alignment for your character:" << endl;
     cout << " 1 Chaotic" << endl;
@@ -403,8 +403,8 @@ int main()
         Alignment = "Neutral";
     }
 
-    // ###############################
-    // # Generate Starting gold or random equipment for Zero level character
+    // ///////////////////////////////
+    // Generate Starting gold or random equipment for Zero level character
     sEquipment_List = (" ");
     if (Choose_Class == "5")
     {
@@ -425,8 +425,8 @@ int main()
             sEquipment_List = (sStarting_Gold + " Gold Pieces");
         }
 
-    // ###############################
-    // # Prints out the finished character to the screen
+    // ///////////////////////////////
+    // Prints out the finished character to the screen
     cout << endl;
     cout << "What is your characters name? ";
     cin >> Character_name;
@@ -469,8 +469,8 @@ int main()
     cin >> YN;
     ask_YN(YN);
 
-    // ###############################
-    // # Write character to a text file using the character name
+    // ///////////////////////////////
+    // Write character to a text file using the character name
     ofstream characterSheet;
     characterSheet.open (Character_name + ".txt");
     characterSheet << endl;
