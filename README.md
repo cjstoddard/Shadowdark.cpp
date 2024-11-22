@@ -22,13 +22,13 @@ https://www.thearcanelibrary.com/
 
 Legal Statement: This Shadowdark Character Generator is an independent product published under the Shadowdark RPG Third-Party License and is not affiliated with The Arcane Library, LLC. Shadowdark RPG © 2023 The Arcane Library, LLC.
 
-License: This code is licensed under the Creative Commons Attribution-NonCommercial 4.0 License.
+MIT License:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-https://creativecommons.org/licenses/by-nc/4.0/legalcode
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-https://creativecommons.org/licenses/by-nc/4.0/
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Disclaimer: This software is provided "AS IS", without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a paticular purpose and nonifringment. In no event shall the author or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.
 
 If you are not a programer and the thought of learning C++ and recompiling the code just to make couple of minor changes does not appeal to you, I have a Python version of this program, linked below. The program does require you to install Python, however Python is a more interactive programing language and is much easier to learn. I even include links to help you get started with it.
 
